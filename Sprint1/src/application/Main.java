@@ -2,8 +2,7 @@ package application;
 
 import java.util.ArrayList;
 import java.util.Random;
-import glen14852903.SpawnEnemies;
-import glen14852903.LevelValues;
+
 import javafx.animation.AnimationTimer;
 import javafx.application.Application;
 import javafx.application.ConditionalFeature;
@@ -31,6 +30,8 @@ import javafx.scene.shape.Box;
 import javafx.scene.transform.Rotate;
 import javafx.stage.Screen;
 import javafx.stage.Stage;
+import levelValues.LevelValues;
+import levelValues.SpawnEnemies;
 import operations.BoundsClamp;
 import operations.CreateBox;
 import operations.CreateCamera;
