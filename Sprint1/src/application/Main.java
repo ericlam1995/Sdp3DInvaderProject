@@ -160,11 +160,12 @@ public class Main extends Application{
 			@Override
 			public void handle(KeyEvent event) {
 				                                           //key imputs here
+				Node tank = tankGroup.getChildren().get(0);
 				
-				
-				
-				
-				
+				for(int i = 0; i < 30; i++){
+					
+				}
+
 				
 				
 			}
