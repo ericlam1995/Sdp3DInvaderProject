@@ -162,7 +162,7 @@ public class Main extends Application{
 				// key imputs here
 				Node tank = tankGroup.getChildren().get(0);//Create Tank's node
 				switch (event.getCode()) {//Switch case for the button
-				case COMMA://When user press Comma's button, it will release bullet out of the tank
+				case COMMA:	//When user press Comma's button, it will release bullet out of the tank
 					
 					bulletStart = new Point3D(tank.getTranslateX(), 
 							tank.getTranslateY(), tank.getTranslateZ()); //Create 3D bullet
