@@ -166,7 +166,7 @@ public class Main extends Application{
 					
 					bulletStart = new Point3D(tank.getTranslateX(), 
 							tank.getTranslateY(), tank.getTranslateZ()); //Create 3D bullet
-					//Create a for loop to release more bullet
+					//Create a for loop to release more bullet or laser-like
 					for (int i = 0; i < 30; i++) {
 						bulletGroup.getChildren().add(boxOP.bullet(bulletStart));//The bullet will be add
 						//in the 3D scene.
