@@ -170,6 +170,7 @@ public class Main extends Application{
 					for (int i = 0; i < 30; i++) {
 						bulletGroup.getChildren().add(boxOP.bullet(bulletStart));//The bullet will be add
 						//in the 3D scene.
+						//testing
 					}
 					break;
 
